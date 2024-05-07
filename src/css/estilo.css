@@ -6,13 +6,7 @@
     --second-color:#effd5f;
     --bg-color: #000137;
     --bg-color2:#b0ffd5;
-    
-
-
 }
-
-
-    
 *{
     margin:0;
     padding: 0;
@@ -21,10 +15,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+
 body{
-
     background-color: var(--bg-color);
-
 }
 header{
     position: fixed;
@@ -37,14 +31,12 @@ header{
     width: 100%;
     padding: 40px 60px;
     background-color: var(--bg-color);
-
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 nav ul{
     display: flex;
     align-items: center;
@@ -66,18 +58,11 @@ nav ul li a:hover{
 .main{
     width: 100%;
 }
-
-
-
-
 .home {
-
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 section{
     width: 100%;
@@ -92,12 +77,10 @@ section{
     font-size:2rem;
     color: var(--second-color);
     margin-bottom: 10px;
-
 }
 .left h4{
     font-size: 3rem;
     color: var(--text-color2);
-
 }
 .btn{
     margin-top: 50px;
@@ -107,7 +90,6 @@ section{
     color: var(--text-color);
     font-size: 1rem;
     font-weight: 700;
-
 }
 .btn:hover{
     box-shadow: 0 2px 6px var(--second-color);
